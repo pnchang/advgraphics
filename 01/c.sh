@@ -1,0 +1,1 @@
+gcc -fpermissive -I"/C/Program Files/Microsoft DirectX SDK (June 2010)/Include" -L"/C/Program Files/Microsoft DirectX SDK (June 2010)/lib/x86" -o example01GW.exe example01.cpp -ld3d9 -ld3dx9 -mwindows -fno-exceptions

@@ -1,0 +1,1 @@
+g++ -fpermissive -static -I"/C/Program Files/Microsoft DirectX SDK (June 2010)/Include" -L"/C/Program Files/Microsoft DirectX SDK (June 2010)/lib/x86" -o example04G.exe example04.cpp Rect3D2.cpp -ld3d9 -ld3dx9 -mwindows -fno-exceptions

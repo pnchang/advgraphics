@@ -1,0 +1,2 @@
+REM Visual Studio 2005
+cl /D"_WINDOWS" /I"D:\DXSDK\include"  example01.cpp /link /out:example01.exe gdi32.lib user32.lib Advapi32.lib d3d8.lib d3dx8.lib  /NODEFAULTLIB:"libci.lib" /LIBPATH:"D:\DXSDK\lib"
